@@ -1,0 +1,234 @@
+body {
+    background-color: #e8edf4;
+    font-family: 'Poppins', sans-serif;
+    color: #2b2b2b;
+     background-image:
+    linear-gradient(
+        rgba(10, 15, 35, 0.75),
+        rgba(10, 15, 35, 0.75)
+    ),
+    url('common-room.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    animation: fadeIn 1s ease;
+    @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0b1f5c;
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #8eb8ff;
+    transition: 0.3s;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 80px;
+}
+
+.hero-section h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.tagline {
+    color: #d6d9e0;
+    font-size: 20px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 6px solid #5f8fd1;
+    box-shadow: 0 0 50px rgba(95, 143, 209, 0.4);
+}
+
+.profile-img:hover {
+    transform: scale(1.03);
+
+    box-shadow:
+    0 0 30px rgba(95, 143, 209, 0.6);
+
+    transition: 0.4s;
+}
+
+/* Button */
+.custom-btn {
+    margin-top: 20px;
+    background-color: #0b1f5c;
+    border: none;
+    padding: 12px 24px;
+    transition: 0.3s;
+    color: white;
+    margin-top: 20px;
+}
+
+.custom-btn:hover {
+    background-color: #5f8fd1;
+}
+
+/* About Page */
+.about-section {
+    margin-top: 100px;
+}
+
+.about-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #5f8fd1;
+    box-shadow:
+    0 0 25px rgba(95,143,209,0.4);
+}
+
+.about-title {
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #d6d9e0;
+}
+
+/* Tools Page */
+.tools-header {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.tools-header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 55px;
+    color: white;
+}
+
+.tools-header p {
+    font-size: 20px;
+    color: #d6d9e0;
+}
+
+/* Tool Cards */
+.tool-card {
+    background:
+    rgba(255,255,255,0.08);
+    border:
+    1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow:
+    0 0 20px rgba(0,0,0,0.3);
+    transition: 0.4s;
+}
+
+.tool-card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+    0 0 25px rgba(95,143,209,0.5);
+}
+
+.tool-card h2 {
+    font-family: 'Cinzel', serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.tool-card p {
+    color: #d6d9e0;
+    margin-bottom: 25px;
+}
+
+/* Calculator Page */
+.calculator-section {
+    margin-top: 80px;
+}
+
+.page-title {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.calculator-card {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+    background:
+    rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    box-shadow:
+    0 0 20px rgba(0,0,0,0.3);
+    color: white;
+}
+
+/* CV PAGE */
+.cv-hero {
+    padding-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+.cv-title {
+    font-size: 70px;
+    font-family: 'Cinzel', serif;
+}
+
+.cv-subtitle {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.cv-section {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.cv-card {
+    background:
+    rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    box-shadow:
+    0 0 20px rgba(0,0,0,0.3);
+}
